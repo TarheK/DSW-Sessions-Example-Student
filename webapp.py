@@ -37,7 +37,7 @@ def renderPage2():
 def renderPage3():
     #TODO: set the favorite color in the session
      session["favoriteColor"] = request.formed["favoriteColor"] #adds the favorite color to the cookie
-    return render_template('page3.html')
+     return render_template('page3.html')
     
 if __name__=="__main__":
     app.run(debug=False)
